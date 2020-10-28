@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: rgba(27, 23, 23);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 350px;
+    height: 150px;
+   }
+
+input {
+    text-align: center;
+    height: 45px;  
+    border-radius: 5px;
+    background-color: rgba(255, 255, 0, 0.712);
+    border: none;
+    margin-top: 50px;
+}
+
+input::placeholder {
+    color: black;
+    font-size: 15px;
+}
+
+.btnBusca {
+    margin-top: 15px;
+    height: 45px;
+    background-color: rgb(23, 94, 175);
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    color: white;
+} 
+
+.btnBusca:hover {
+    background-color:rgba(255, 255, 0, 0.712);
+    transition: all 0.3s;
+    color: black;
+}
+
+.content{
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: yellow;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.muestraPoke {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.redes img {
+    width: 40px;
+}
+.redes img:hover {
+    border-radius: 100%;
+    background-size: cover;
+    background-color: grey;
+    
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(31, 27, 27);
+    display: flex;
+    justify-content: center;
+}
+
+/*Responsive*/
+
+@media (min-width: 320px) and (max-width:475px) {
+    .logo{
+        width: 210px;
+        height: 90px;
+        margin-bottom: 70px;
+       }
+
+    input {
+        width: 300px;
+        margin: auto;
+    }
+
+    .btnBusca {
+        width: 300px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    footer {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}   
